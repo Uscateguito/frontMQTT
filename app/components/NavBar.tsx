@@ -24,8 +24,8 @@ const navBar = () => {
     // }, [theme]);
 
     return (
-        <div className="navbar-center">
-                <a className="btn btn-ghost text-xl">Publisher Subscriber</a>
+        <div className="navbar bg-base-200 justify-center">
+                <a className="btn btn-ghost text-xl">Taller Arqui</a>
         </div>
     )
 }
