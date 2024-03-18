@@ -1,5 +1,6 @@
 import React from 'react'
 import MQTTSubscriber from "@/app/components/MQTTSubscriber";
+import MQTTPublisher from "@/app/components/MQTTPublisher";
 
 const Hero = () => {
     return (
@@ -9,8 +10,13 @@ const Hero = () => {
             <div className="hero-content text-center text-neutral-content">
                 <div className="flex flex-col max-w-xl">
                     <h1 className="mb-5 text-5xl font-bold">MQTT</h1>
-                    <div>
-                        <MQTTSubscriber/>
+                    <div className="flex flex-row gap-10">
+                        <div>
+                            <MQTTSubscriber/>
+                        </div>
+                        <div>
+                            <MQTTPublisher/>
+                        </div>
                     </div>
                 </div>
             </div>
